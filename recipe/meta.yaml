@@ -1,5 +1,5 @@
 {% set name = "pymedio" %}
-{% set version = "0.2.13" %}
+{% set version = "0.2.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymedio-{{ version }}.tar.gz
-  sha256: 48166181ca4b800c3a8a890e77cf323f26be198653eae698720a4bdd74c2c6a3
+  sha256: 7fa1f7277c5b729a6d46e15ccb0249805a8d08a916378a5e658663aba4d295af
 
 build:
   noarch: python
